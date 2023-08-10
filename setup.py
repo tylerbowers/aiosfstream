@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 INSTALL_REQUIRES = [
-    "aiocometd>=0.4.1,<0.5.0",
+    "aiocometd @ git+https://github.com/tylerbowers/aiocometd@develop",
     "aiohttp>=3.1,<4.0"
 ]
 TESTS_REQUIRE = [
